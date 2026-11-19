@@ -1,4 +1,6 @@
 class KiwiDl < Formula
+  include Language::Python::Virtualenv
+
   desc "Download public MEGA links from the terminal, resumable and verified"
   homepage "https://github.com/ruizhengu/kiwi-dl"
   # The release asset, not a GitHub archive: brew pins these bytes forever, and
