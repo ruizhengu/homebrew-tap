@@ -5,8 +5,8 @@ class KiwiDl < Formula
   homepage "https://github.com/ruizhengu/kiwi-dl"
   # The release asset, not a GitHub archive: brew pins these bytes forever, and
   # GitHub has changed archive generation before, changing every hash with it.
-  url "https://github.com/ruizhengu/kiwi-dl/releases/download/v0.1.0/kiwi_dl-0.1.0.tar.gz"
-  sha256 "60defe58204ec8cef7e2622cf4e07c01521296efdbc2233b14b169482e8f3d8c"
+  url "https://github.com/ruizhengu/kiwi-dl/releases/download/v0.2.0/kiwi_dl-0.2.0.tar.gz"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "MIT"
 
   livecheck do
