@@ -5,8 +5,8 @@ class KiwiDl < Formula
   homepage "https://github.com/ruizhengu/kiwi-dl"
   # The release asset, not a GitHub archive: brew pins these bytes forever, and
   # GitHub has changed archive generation before, changing every hash with it.
-  url "https://github.com/ruizhengu/kiwi-dl/releases/download/v0.2.0/kiwi_dl-0.2.0.tar.gz"
-  sha256 "7110555518b757562a2b14e1aea3390f6c5b50e8f88726bc811709d8abdce29b"
+  url "https://github.com/ruizhengu/kiwi-dl/releases/download/v0.2.1/kiwi_dl-0.2.1.tar.gz"
+  sha256 "88e792fe6422b44db543fab63d55e01769d364586a13c19295fbf19dbbcc0d19"
   license "MIT"
 
   livecheck do
@@ -34,11 +34,6 @@ class KiwiDl < Formula
   resource "pycryptodome" do
     url "https://files.pythonhosted.org/packages/d6/4d/dfbdfacc0579fa4394e3a442f034c2fb41a44d95d21bf9cd85cee89c3df6/pycryptodome-4.5.0.tar.gz"
     sha256 "51e97a8d1cf101974bc40c20b3191cb1903891e5c172346943d5d4f3bc4f9d83"
-  end
-
-  resource "tenacity" do
-    url "https://files.pythonhosted.org/packages/82/9e/497c1c8ebe5a5b5d1d4a7511aea22c0bb1a97e3170d98abdef0e1b34265a/tenacity-9.2.1.tar.gz"
-    sha256 "a606b5c808d0cded4a359d5b9932d867ff2a6a6b64d37350260fd01bbdf83839"
   end
 
   resource "certifi" do
